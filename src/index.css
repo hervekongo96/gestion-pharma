@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+nav ul li a{
+  display: block;
+  padding: 20px;
+}
+
+nav ul li:not(:first-child){
+  margin-left: 20px;
+}
+
+.active{
+  color: rgb(252, 252, 252);
+  background-color: rgb(109, 103, 103);
+}
+
+
+main{
+  padding:  0 20px;
+}
